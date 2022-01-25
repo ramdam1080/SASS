@@ -1,0 +1,146 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+header > div:first-of-type {
+  background-color: #c91c87;
+  text-align: center;
+  padding: 10px;
+}
+header > div:first-of-type label {
+  color: lightgray;
+}
+header > div:first-of-type input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+header > div:first-of-type button {
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+}
+header > div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px lightgray solid;
+}
+header > div:nth-of-type(2) ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+header > div:nth-of-type(2) ul li {
+  margin: 0 20px;
+}
+header > div:nth-of-type(2) ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+header > div:nth-of-type(2) img {
+  width: 200px;
+  border-right: 1px solid lightgray;
+  padding-right: 80px;
+}
+header > div:nth-of-type(2) > a {
+  text-align: start;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  border-left: 1px solid lightgray;
+  padding: 40px;
+}
+header > img {
+  position: absolute;
+}
+
+section {
+  width: 70%;
+  margin: auto;
+}
+section h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: normal;
+}
+section hr {
+  width: 50px;
+  border: 1px solid purple;
+  margin-bottom: 40px;
+}
+section p {
+  font-size: 18px;
+}
+section ul li {
+  margin: 30px 0;
+  list-style: none;
+  position: relative;
+}
+section ul li::before {
+  content: "•";
+  font-size: 35px;
+  color: purple;
+  position: absolute;
+  left: -30px;
+  bottom: -7px;
+}
+section:nth-of-type(2) {
+  width: 70%;
+  margin: auto;
+}
+section:nth-of-type(2) h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: normal;
+}
+section:nth-of-type(2) p {
+  font-size: 19px;
+  font-weight: 100;
+  margin: 30px 0;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  margin-top: 100px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 70px 0;
+  border-bottom: 1px solid lightgray;
+}
+footer ul li {
+  margin: 0 25px;
+}
+footer ul li i {
+  border: 3px white solid;
+  border-radius: 50%;
+  padding: 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+footer div {
+  margin-top: 40px;
+}
+footer div img {
+  width: 180px;
+}
+
+/*# sourceMappingURL=style.css.map */
